@@ -4,7 +4,7 @@ library actions.core;
 import 'package:js/js.dart';
 import 'require.dart';
 
-late final core = require('ActionsCore');
+late final core = require('@actions/core');
 
 @JS()
 @anonymous

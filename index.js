@@ -1541,7 +1541,7 @@ return s.charCodeAt(0)==0?s:s},
 dC:function(a){var t,s
 for(t=$.Z.length,s=0;s<t;++s)if(a===$.Z[s])return!0
 return!1}},W={ay:function ay(){}},K={
-bA:function(){if(!$.bu){var t=self.require("ActionsCore")
+bA:function(){if(!$.bu){var t=self.require("@actions/core")
 if($.bu)throw H.a(new H.N("Field 'core' has been assigned during initialization."))
 $.c6=t
 $.bu=!0}return $.c6},
