@@ -1,10 +1,10 @@
 name: 'Hello World'
 description: 'Say hello'
 inputs:
-  who:
+  name:
     description: 'Who to greet'
     required: true
     default: 'Fritz'
 runs:
   using: 'node12'
-  main: 'build/main.dart.js'
+  main: 'index.js'

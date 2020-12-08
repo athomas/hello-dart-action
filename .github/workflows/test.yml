@@ -19,4 +19,4 @@ jobs:
         uses: ./ # Uses an action in the root directory
         id: hello
         with:
-          who: 'Dash'
+          name: 'Dash'
