@@ -7,4 +7,4 @@ inputs:
     default: 'Fritz'
 runs:
   using: 'node12'
-  main: 'build/main.dart.js'
+  main: 'build/main.dart.node.js'

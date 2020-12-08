@@ -6,7 +6,7 @@
 build/**
 
 # Generated main JS file
-!build/main.dart.js
+!build/main.dart.node.js
 
 # Directory created by dartdoc
 doc/api/

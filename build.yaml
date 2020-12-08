@@ -1,0 +1,26 @@
+builders:
+  nodePreambleBuilder:
+    import: "package:hello_dart_action/build_tools/builder.dart"
+    builder_factories: ["nodePreambleBuilder"]
+    build_extensions: {"dart.js": ["node.js"]}
+    build_to: source
+    auto_apply: root_package
+
+targets:
+  $default:
+    sources:
+      - $package$
+      - "node/**"
+      - "lib/**"
+    builders:
+      build_web_compilers|entrypoint:
+        generate_for:
+        - node/**
+        options:
+          compiler: dart2js
+          sound_null_safety: false
+          dart2js_args:
+          - -O3
+      nodePreambleBuilder:
+        generate_for:
+        - build/*

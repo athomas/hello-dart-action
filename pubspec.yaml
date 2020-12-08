@@ -11,5 +11,6 @@ dependencies:
 
 dev_dependencies:
   build_runner: ^1.10.0
-  build_web_compilers: ^2.11.0
+  build_web_compilers: ^2.16.0
+  node_preamble: ^1.4.12
   pedantic: ^1.9.0
