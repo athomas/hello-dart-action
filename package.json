@@ -1,0 +1,27 @@
+{
+  "name": "hello-dart-action",
+  "version": "1.0.0",
+  "description": "A hello world GitHub Action written in Dart.",
+  "main": "index.js",
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/athomas/hello-dart-action.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/athomas/hello-dart-action/issues"
+  },
+  "homepage": "https://github.com/athomas/hello-dart-action#readme",
+  "dependencies": {
+    "@actions/core": "^1.2.6",
+    "@actions/github": "^4.0.0"
+  }
+}
