@@ -3,10 +3,7 @@
 .packages
 
 # Conventional directory for build outputs
-build/**
-
-# Generated main JS file
-!build/main.dart.node.js
+build
 
 # Directory created by dartdoc
 doc/api/
