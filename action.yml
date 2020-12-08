@@ -1,7 +1,7 @@
 name: 'Hello World'
 description: 'Say hello'
 inputs:
-  who:
+  name:
     description: 'Who to greet'
     required: true
     default: 'Fritz'
