@@ -1,4 +1,4 @@
-A hello world GitHub Action written in Dart.
+A PoC hello world GitHub action written in Dart.
 
 # Update JS
 ```bash
